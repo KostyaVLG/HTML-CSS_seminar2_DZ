@@ -1,0 +1,55 @@
+@font-face {
+    font-family: MyFont;
+    src: url("../font/teddy-bear.ttf");
+}
+
+html {
+    background-color: #8dc1c1;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: red;
+    font-family: "MyFont", "Ariya", sans-serif;
+}
+
+h2 {
+    color: yellow;
+}
+
+a {
+    color: green;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+.img1 {
+    width: 300px;
+}
+
+.border {
+    border: 5px solid grey;
+}
+
+.img2 {
+    width: 400px;
+}
+
+.bigtext {
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
